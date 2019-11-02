@@ -311,6 +311,8 @@ def load_world(filename=None):
     _world.create_layer()
     _scene.setAutoRefresh(False)
 
+    return _world, _scene
+
 
 def save_world(filename=None):
     """Save a robot world to filename.
